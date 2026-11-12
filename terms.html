@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Terms & Conditions — Mehnuba Mohsin</title>
+<meta name="description" content="Clear expectations and professional terms for working with Mehnuba Mohsin, Fractional Business Operations Partner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FAFAF7; --soft:#F0EDE7; --card:#FFFFFF; --ink:#1F1D1B; --muted:#6B6760; --faint:#94908A;
+  --line:#D8D4CD; --line-strong:#B8B3AA;
+  --band:#1F1D1B; --band-ink:#F0EDE7; --band-muted:#A5A09A; --band-line:rgba(240,237,231,.18);
+  --on-dark:#FAFAF7;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:inherit}
+::selection{background:var(--ink);color:var(--bg)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px)}
+.narrow{max-width:860px;margin:0 auto;padding:0 clamp(20px,5vw,40px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* nav */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+.brand{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:1.25rem;text-decoration:none;color:var(--ink);letter-spacing:-.01em}
+nav{display:flex;align-items:center;gap:32px;font-size:.92rem}
+nav a{color:var(--muted);text-decoration:none;position:relative}
+nav a:hover,nav a[aria-current="page"]{color:var(--ink)}
+nav a[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-26px;height:2px;background:var(--ink)}
+@media (max-width:720px){nav a.hide-sm{display:none}}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:13px 26px;border-radius:999px;font-weight:500;font-size:.95rem;text-decoration:none;transition:transform .15s ease,background .15s ease,color .15s ease,border-color .15s ease;font-family:inherit;border:0;cursor:pointer}
+.btn:hover{transform:translateY(-1px)}
+.btn.dark{background:var(--ink);color:var(--on-dark)}
+.btn.dark:hover{background:#000}
+.btn.light{background:var(--on-dark);color:var(--ink)}
+.btn.light:hover{background:#fff}
+.btn.line{border:1px solid var(--line-strong);color:var(--ink);background:transparent}
+.btn.line:hover{border-color:var(--ink)}
+nav .btn{padding:10px 20px;min-height:40px;font-size:.92rem}
+
+/* hero */
+.page-hero{padding:clamp(80px,12vw,140px) 0 clamp(32px,5vw,56px)}
+.eyebrow{font-size:.78rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin:0 0 20px}
+.page-hero h1{margin:0 0 24px;font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(2.4rem,5.5vw,4rem);line-height:1.05;letter-spacing:-.02em;max-width:20ch}
+.page-hero .sub{margin:0 0 32px;font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(1.15rem,2vw,1.45rem);line-height:1.4;color:var(--muted);max-width:40ch}
+.intro-prose{color:var(--muted);max-width:40em;font-size:1.075rem}
+.intro-prose p{margin:0 0 16px}
+.intro-prose p:last-child{margin-bottom:0}
+
+/* terms layout — two col on wide */
+.terms-wrap{display:grid;grid-template-columns:260px 1fr;gap:clamp(40px,6vw,96px);padding:clamp(48px,8vw,96px) 0 clamp(80px,10vw,120px);align-items:flex-start}
+@media (max-width:980px){.terms-wrap{grid-template-columns:1fr}}
+.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 96px)}
+@media (max-width:980px){.toc{position:static;margin-bottom:32px;padding:24px;background:var(--soft);border-radius:4px}}
+.toc p.eyebrow{margin-bottom:16px}
+.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;counter-reset:toc}
+.toc li{counter-increment:toc;font-size:.92rem;color:var(--muted)}
+.toc li::before{content:counter(toc,decimal-leading-zero) " · ";color:var(--faint);font-family:"Fraunces",serif}
+.toc a{text-decoration:none}
+.toc a:hover{color:var(--ink)}
+
+.terms-body section{padding:0 0 48px;border-bottom:1px solid var(--line);margin-bottom:48px;scroll-margin-top:96px}
+.terms-body section:last-of-type{border-bottom:0;padding-bottom:0;margin-bottom:0}
+.terms-body h2{font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(1.6rem,2.8vw,2.1rem);line-height:1.2;letter-spacing:-.015em;margin:0 0 20px;display:flex;align-items:baseline;gap:16px}
+.terms-body h2 .n{font-size:.85rem;color:var(--faint);font-family:"Fraunces",serif;letter-spacing:.08em;flex-shrink:0;min-width:2em}
+.terms-body p{margin:0 0 16px;color:var(--muted)}
+.terms-body p.lead{color:var(--ink);font-weight:500;font-size:1.1rem;font-family:"Fraunces",serif;font-style:italic;line-height:1.45;padding:16px 20px;background:var(--soft);border-left:3px solid var(--ink);border-radius:0 4px 4px 0}
+.terms-body p.highlight{color:var(--ink);font-weight:500}
+.terms-body ul{list-style:none;margin:0 0 20px;padding:0;display:flex;flex-direction:column;gap:12px}
+.terms-body ul li{padding-left:22px;position:relative;color:var(--muted);line-height:1.6}
+.terms-body ul li::before{content:"";position:absolute;left:0;top:.65em;width:12px;height:1px;background:var(--muted)}
+.terms-body ol.numbered{list-style:none;margin:0 0 20px;padding:0;counter-reset:n;display:flex;flex-direction:column;gap:14px}
+.terms-body ol.numbered li{counter-increment:n;padding-left:32px;position:relative;color:var(--muted)}
+.terms-body ol.numbered li::before{content:counter(n) ".";position:absolute;left:0;top:0;color:var(--ink);font-weight:500;font-family:"Fraunces",serif}
+
+/* closing block */
+.closing{padding:clamp(80px,12vw,140px) 0;background:var(--band);color:var(--band-ink);text-align:center}
+.closing h2{margin:0 auto 24px;font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:clamp(2.2rem,5vw,3.5rem);line-height:1.05;letter-spacing:-.02em;max-width:22ch;color:var(--band-ink)}
+.closing .tag{font-family:"Fraunces",Georgia,serif;font-style:italic;font-size:clamp(1.2rem,2.2vw,1.55rem);color:var(--band-muted);margin:0 auto 32px;max-width:32em;text-align:center}
+.closing p{color:var(--band-muted);max-width:30em;margin:0 auto 32px}
+.closing p.highlight{color:var(--band-ink);font-weight:500;font-family:"Fraunces",serif;font-style:italic;font-size:1.3rem;line-height:1.45;max-width:28em}
+.closing .cta-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:12px}
+
+/* footer */
+footer{padding:48px 0 56px;background:var(--bg);border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+footer nav{display:flex;flex-wrap:wrap;gap:24px;font-size:.9rem}
+footer a{text-decoration:none}
+footer a:hover{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="brand">Mehnuba Mohsin</a>
+    <nav aria-label="Main">
+      <a href="index.html" class="hide-sm">Home</a>
+      <a href="services.html" class="hide-sm">Services</a>
+      <a href="about.html" class="hide-sm">About</a>
+      <a href="terms.html" class="hide-sm" aria-current="page">Terms</a>
+      <a href="https://calendar.app.google/aQQhvuxDoZAUkcBc9" class="btn dark" target="_blank" rel="noopener">Book a Call</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow">Working Together</p>
+      <h1>Terms &amp; Conditions.</h1>
+      <p class="sub">Clear expectations. Honest communication. A professional partnership.</p>
+      <div class="intro-prose">
+        <p>I believe a successful working relationship starts with transparency. These terms are here to make sure we both understand our responsibilities, expectations and commitments before getting started.</p>
+        <p>Every client engagement is based on mutual respect, accountability and a clear understanding of what we agree to deliver.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="terms-wrap">
+
+      <aside class="toc" aria-label="Contents">
+        <p class="eyebrow">Contents</p>
+        <ol>
+          <li><a href="#s1">Monthly packages & engagement</a></li>
+          <li><a href="#s2">Payment terms</a></li>
+          <li><a href="#s3">Cancellation & notice</a></li>
+          <li><a href="#s4">Refund policy</a></li>
+          <li><a href="#s5">Client responsibilities</a></li>
+          <li><a href="#s6">Scope of work</a></li>
+          <li><a href="#s7">Communication & reporting</a></li>
+          <li><a href="#s8">Tools & data access</a></li>
+          <li><a href="#s9">Confidentiality & privacy</a></li>
+          <li><a href="#s10">Work ownership & approvals</a></li>
+          <li><a href="#s11">Professional standards</a></li>
+          <li><a href="#s12">Formal contract</a></li>
+        </ol>
+      </aside>
+
+      <article class="terms-body">
+
+        <section id="s1">
+          <h2><span class="n">01</span><span>Monthly Packages &amp; Engagement</span></h2>
+          <ul>
+            <li>All service packages are offered on a monthly basis.</li>
+            <li>Each package includes an agreed scope of responsibilities and deliverables.</li>
+            <li>The selected package determines the level of support and operational involvement.</li>
+            <li>Any additional responsibilities outside the agreed scope must be discussed and approved before I take them on.</li>
+            <li>Packages do not include unlimited tasks, availability or additional services beyond the agreed engagement.</li>
+            <li>The monthly service period and start date will be specified in the signed service agreement.</li>
+          </ul>
+        </section>
+
+        <section id="s2">
+          <h2><span class="n">02</span><span>Payment Terms — Advance Payment Only</span></h2>
+          <p class="lead">Payment is required in advance. No advance payment, no commencement of work.</p>
+          <ul>
+            <li>The first month’s payment must be received in full before I begin working.</li>
+            <li>Each subsequent month’s payment must also be received in advance, before the new service month begins.</li>
+            <li>Payments must be made through the agreed payment method and in the agreed currency.</li>
+            <li>Any applicable transfer or payment-processing fees must be covered by the client.</li>
+            <li>If payment for the next month is not received by the agreed due date, I will pause all services until payment is received and confirmed.</li>
+            <li>Work will resume once payment has been confirmed.</li>
+            <li>Delays caused by late payments may affect timelines and deliverables.</li>
+          </ul>
+          <p>I operate on a straightforward principle: <span class="highlight">the service month is paid for before the work begins.</span></p>
+        </section>
+
+        <section id="s3">
+          <h2><span class="n">03</span><span>Cancellation &amp; Notice Period</span></h2>
+          <p>I value long-term professional relationships, but I also understand that business needs can change.</p>
+          <ul>
+            <li>Either party may choose to end the partnership by providing at least <span class="highlight">30 days’ written notice</span>.</li>
+            <li>The notice period begins once written notice has been received.</li>
+            <li>During the notice period, both parties are expected to fulfil their agreed responsibilities.</li>
+            <li>The client remains responsible for the agreed payment during the notice period.</li>
+            <li>Any outstanding payments must be settled before the partnership is formally concluded.</li>
+            <li>I will provide a professional handover of ongoing tasks, documentation and relevant work completed during the engagement.</li>
+          </ul>
+          <p>Please note that immediate cancellation without the agreed notice period may not be accepted unless both parties mutually agree in writing or the contract provides otherwise.</p>
+        </section>
+
+        <section id="s4">
+          <h2><span class="n">04</span><span>Refund Policy</span></h2>
+          <p>Because my services are reserved, planned and delivered as a monthly engagement, <span class="highlight">payments are generally non-refundable once work has commenced.</span></p>
+          <p>However, I believe in being fair and protecting the quality of my work. There is one important exception:</p>
+          <p class="lead">If I am unable to get the engagement started because the client does not provide the necessary access, information, approvals or cooperation, and no meaningful work has commenced, I may terminate the engagement and issue a full refund.</p>
+          <p>The process will be:</p>
+          <ol class="numbered">
+            <li>I will communicate the missing requirements and give the client a reasonable opportunity to provide them.</li>
+            <li>If the required support is still not provided and the engagement cannot move forward, I will issue written notice that I am ending the partnership.</li>
+            <li>If no meaningful work has commenced, the full payment received for that service period will be refunded.</li>
+          </ol>
+          <p>If work has already commenced, payment for work performed is non-refundable. Any refund relating to undelivered services will be handled according to the signed contract and applicable law.</p>
+          <p>I will not compromise my professional standards, deliver poor-quality work or make commitments I cannot fulfil simply to keep a client engagement active.</p>
+        </section>
+
+        <section id="s5">
+          <h2><span class="n">05</span><span>Client Responsibilities &amp; Cooperation</span></h2>
+          <p>A successful partnership requires cooperation from both sides.</p>
+          <p>The client agrees to:</p>
+          <ul>
+            <li>Provide the necessary business information, instructions and resources.</li>
+            <li>Provide access to relevant tools, platforms and accounts.</li>
+            <li>Share existing processes, documentation and expectations.</li>
+            <li>Respond to questions and requests for approvals in a reasonable timeframe.</li>
+            <li>Provide feedback and clarification when required.</li>
+            <li>Assign an appropriate point of contact for communication and decision-making.</li>
+            <li>Ensure that the information and materials provided are accurate and authorized for use.</li>
+          </ul>
+          <p>If required access, information or approvals are delayed, the affected tasks and timelines may also be delayed.</p>
+          <p>If the client repeatedly fails to provide the support necessary for me to perform the agreed work, I reserve the right to review or terminate the engagement under the cancellation and refund terms above.</p>
+          <p class="lead">My professional reputation and the quality of my work matter. I will not continue an engagement where the necessary cooperation is consistently missing and the agreed work cannot be delivered properly.</p>
+        </section>
+
+        <section id="s6">
+          <h2><span class="n">06</span><span>Scope of Work &amp; Deliverables</span></h2>
+          <ul>
+            <li>Responsibilities will be agreed upon before the engagement begins.</li>
+            <li>I will work within the scope of the selected package and mutually agreed priorities.</li>
+            <li>New requests or significant changes in responsibilities may require a revised scope or package.</li>
+            <li>I will be transparent about my capabilities and will not promise services outside my expertise.</li>
+            <li>Any additional costs, software subscriptions or third-party services must be approved by the client before purchase.</li>
+            <li>Deliverables and priorities will be agreed upon based on the client’s business needs and the selected package.</li>
+          </ul>
+        </section>
+
+        <section id="s7">
+          <h2><span class="n">07</span><span>Communication &amp; Reporting</span></h2>
+          <p>Clear communication is essential to how I work.</p>
+          <p>As part of our engagement, I will provide:</p>
+          <ul>
+            <li>Regular communication and progress updates.</li>
+            <li>Weekly touch-base calls, as agreed for the engagement.</li>
+            <li>Weekly reports covering completed work, ongoing tasks, blockers and upcoming priorities.</li>
+            <li>Proactive communication when something requires attention.</li>
+          </ul>
+          <p>Both parties are expected to communicate respectfully and professionally.</p>
+          <p>Response times and working arrangements will be agreed upon during onboarding. This is a professional service engagement, not an unlimited, around-the-clock availability arrangement.</p>
+        </section>
+
+        <section id="s8">
+          <h2><span class="n">08</span><span>Tools, Accounts &amp; Data Access</span></h2>
+          <ul>
+            <li>Wherever possible, I will work with the client’s existing tools, platforms and subscriptions.</li>
+            <li>The client is responsible for providing the required access and maintaining active subscriptions.</li>
+            <li>I will use authorized access only for the agreed business responsibilities.</li>
+            <li>The client remains responsible for account ownership, billing and subscription management.</li>
+            <li>I will take reasonable care when handling business information and account access.</li>
+            <li>Any additional tools or subscriptions required for the work must be discussed and approved by the client beforehand.</li>
+          </ul>
+        </section>
+
+        <section id="s9">
+          <h2><span class="n">09</span><span>Confidentiality &amp; Privacy</span></h2>
+          <p>I respect the confidentiality of every business I work with.</p>
+          <ul>
+            <li>Client business information, documents, processes, credentials and internal communications will be treated as confidential.</li>
+            <li>I will not disclose confidential information to unauthorized third parties.</li>
+            <li>Client information will only be used for the purpose of delivering the agreed services.</li>
+            <li>Both parties are expected to protect confidential information shared during the engagement.</li>
+            <li>Confidential information will not be used for personal gain or shared without appropriate authorization.</li>
+          </ul>
+          <p>These confidentiality obligations continue even after the partnership ends, subject to applicable legal requirements.</p>
+        </section>
+
+        <section id="s10">
+          <h2><span class="n">10</span><span>Work Ownership &amp; Approvals</span></h2>
+          <ul>
+            <li>Once the relevant payment has been received, work specifically created and paid for under the engagement will belong to the client, subject to any third-party software or licensing restrictions.</li>
+            <li>The client is responsible for reviewing and approving important deliverables where approval is required.</li>
+            <li>I will not be held responsible for decisions made by the client based on information or recommendations they have not verified.</li>
+            <li>Any pre-existing templates, methods, frameworks or materials that I independently own remain mine unless otherwise agreed in writing.</li>
+          </ul>
+        </section>
+
+        <section id="s11">
+          <h2><span class="n">11</span><span>Professional Standards &amp; Working Relationship</span></h2>
+          <p>I believe in mutual respect, accountability and honest communication.</p>
+          <p>I reserve the right to decline requests that are outside the agreed scope, unethical, unlawful or inconsistent with professional standards.</p>
+          <p>If either party feels the working relationship is no longer productive, the matter should be discussed openly and handled professionally.</p>
+          <p class="highlight">My commitment is to deliver the work we agree on, communicate honestly and protect the quality of the service I provide.</p>
+        </section>
+
+        <section id="s12">
+          <h2><span class="n">12</span><span>Formal Contract &amp; Agreement</span></h2>
+          <p>Every client engagement will be formalized through a written service agreement before work begins.</p>
+          <ul>
+            <li>Both parties will review and sign the contract before the engagement starts.</li>
+            <li>The contract will clearly outline the selected package, monthly fee, payment terms, scope of services, responsibilities, start date, notice period and other relevant conditions.</li>
+            <li>Any additional terms or changes to the agreed scope must be mutually discussed and confirmed in writing.</li>
+            <li>Both parties are expected to honour the commitments and responsibilities outlined in the signed agreement.</li>
+            <li>These Terms &amp; Conditions will form part of the overall service agreement.</li>
+            <li>If any provision in these Terms &amp; Conditions conflicts with the signed service agreement, the signed agreement will take precedence to the extent of the conflict, subject to applicable law.</li>
+          </ul>
+          <p class="lead">No work will commence until the service agreement has been signed by both parties and the initial advance payment has been received.</p>
+          <p>I believe a good partnership starts with clarity, mutual trust and accountability. A signed agreement ensures that we’re both protected and aligned from day one.</p>
+        </section>
+
+      </article>
+    </div>
+  </div>
+
+  <section class="closing">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--band-muted)">In closing</p>
+      <h2>Let’s build a professional partnership.</h2>
+      <p class="tag">Clear expectations. Honest communication. Reliable execution.</p>
+      <p>My goal is to create a working relationship where both parties feel respected, supported and confident about their commitments.</p>
+      <p class="highlight">No hidden conditions. No unnecessary complications. Just good professional work.</p>
+      <div class="cta-row">
+        <a href="https://calendar.app.google/aQQhvuxDoZAUkcBc9" class="btn light" target="_blank" rel="noopener">Book a Discovery Call</a>
+        <a href="services.html" class="btn line" style="color:var(--band-ink);border-color:rgba(240,237,231,.4)">See packages</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Mehnuba Mohsin · Dhaka, Bangladesh</span>
+    <nav aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://www.linkedin.com/in/mehnubaa" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
